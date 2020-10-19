@@ -74,7 +74,7 @@ io.on('connection', (socket) => {
 
 
 //Port Hosting
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 server.listen(PORT, () => {
-    console.log(`Server is now listening to port ${port}`)
+    console.log(`Server is now listening to port ${PORT}`)
 })
